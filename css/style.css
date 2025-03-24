@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+/* ********** Template CSS ********** */
 :root {
     --primary: #F3525A;
     --secondary: #F6F6F6;
@@ -6,21 +6,15 @@
     --dark: #152440;
 }
 
-h1,
-h2,
-.font-weight-bold {
+h1, h2, .font-weight-bold {
     font-weight: 700 !important;
 }
 
-h3,
-h4,
-.font-weight-semi-bold {
+h3, h4, .font-weight-semi-bold {
     font-weight: 600 !important;
 }
 
-h5,
-h6,
-.font-weight-medium {
+h5, h6, .font-weight-medium {
     font-weight: 500 !important;
 }
 
@@ -62,9 +56,7 @@ h6,
     height: 46px;
 }
 
-.btn-square,
-.btn-sm-square,
-.btn-lg-square {
+.btn-square, .btn-sm-square, .btn-lg-square {
     padding-left: 0;
     padding-right: 0;
     text-align: center;
@@ -109,8 +101,54 @@ h6,
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav {
+        text-align: center;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .navbar-toggler {
+        border: none;
+        outline: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-collapse {
+        background: var(--light);
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+        background: var(--light);
+        border: none;
+    }
+
+    .dropdown-menu .dropdown-item {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+        background: var(--primary);
+        color: var(--light);
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand h1 {
+        font-size: 22px;
+    }
+
+    .navbar-toggler {
+        font-size: 20px;
     }
 }
 
