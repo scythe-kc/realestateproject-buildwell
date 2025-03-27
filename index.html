@@ -59,54 +59,73 @@
     <!-- Topbar End -->
 
 
-   <!-- Navbar Start -->
+<!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-    <a href="index.html" class="navbar-brand p-0">
-        <h1 class="m-0 text-uppercase text-primary">
-        WELL BUILT REAL ESTATES LLP
-        </h1>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto py-0 me-n3">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
-            
-            <!-- About Dropdown -->
-            <div class="nav-item dropdown">
-                <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
-                <div class="dropdown-menu m-0">
-                    <a href="company.html" class="dropdown-item">Company</a>
-                    <a href="team.html" class="dropdown-item">Our Team</a>
-                    <a href="news.html" class="dropdown-item">News</a>
-                    <a href="investors.html" class="dropdown-item">Investors</a>
-                </div>
+    <div class="container-fluid">
+        <!-- Brand Name -->
+        <a href="index.html" class="navbar-brand p-0">
+            <h1 class="m-0 text-uppercase text-primary fs-3 fs-md-2 fs-lg-1">WELL BUILT REAL ESTATES</h1>
+        </a>
+
+        <!-- Toggle Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Items -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active text-dark fw-semibold" href="index.html">HOME</a>
+                </li>
+
+                <!-- About Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark fw-semibold" href="#" id="aboutDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        ABOUT
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                        <li><a class="dropdown-item" href="company.html">Company</a></li>
+                        <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                        <li><a class="dropdown-item" href="news.html">News</a></li>
+                        <li><a class="dropdown-item" href="investors.html">Investors</a></li>
+                    </ul>
+                </li>
+
+                <!-- Projects -->
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-semibold" href="#">PROJECTS</a>
+                </li>
+
+                <!-- Brochure -->
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-semibold" href="Brochure.html">BROCHURE</a>
+                </li>
+
+                <!-- Layout Plan Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark fw-semibold" href="#" id="layoutDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        LAYOUT PLAN
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="layoutDropdown">
+                        <li><a class="dropdown-item" href="ApprovedLayoutPlan.html">Approved LayoutPlan</a></li>
+                        <li><a class="dropdown-item" href="revised-layout.html">Revised LayoutPlan</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Contact and Login Buttons -->
+            <div class="d-flex ms-3">
+                <a href="#" class="btn btn-outline-primary me-2 px-4">Contact</a>
+                <a href="#" class="btn btn-primary px-4">Login</a>
             </div>
-
-            <!-- Projects Link (Moved outside of dropdowns) -->
-            <a href="service.html" class="nav-item nav-link">Projects</a>
-
-            
-            
-            <a href="Brochure.html" class="nav-item nav-link">Brochure</a>
-
-
-            <!-- LayoutPlan Dropdown -->
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">LayoutPlan</a>
-                <div class="dropdown-menu m-0">
-                    <a href="approved-layout.html" class="dropdown-item">Approved LayoutPlan</a>
-                    <a href="revised-layout.html" class="dropdown-item">Revised LayoutPlan</a>
-                </div>
-            </div>
-
-            <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
         </div>
     </div>
 </nav>
 <!-- Navbar End -->
-
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
