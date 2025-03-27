@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+/* Template CSS */
 :root {
     --primary: #751d22;
     --secondary: #F6F6F6;
@@ -69,6 +69,26 @@
     }
 }
 
+/* Fix inconsistent font sizes in navbar */
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Barlow', sans-serif;
+    padding: 35px 15px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    color: var(--dark);
+    transition: .5s;
+}
+
+.sticky-top.navbar-light .navbar-nav .nav-link {
+    padding: 20px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
 /* Typography */
 h1, h2, .font-weight-bold {
     font-weight: 700 !important;
@@ -134,25 +154,6 @@ h5, h6, .font-weight-medium {
     right: 45px;
     bottom: 45px;
     z-index: 99;
-}
-
-/* Navbar Links */
-.navbar-light .navbar-nav .nav-link {
-    font-family: 'Barlow', sans-serif;
-    padding: 35px 15px;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: var(--dark);
-    transition: .5s;
-}
-
-.sticky-top.navbar-light .navbar-nav .nav-link {
-    padding: 20px 15px;
-}
-
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
 }
 
 /* Carousel */
@@ -225,38 +226,6 @@ h5, h6, .font-weight-medium {
     margin-bottom: 25px !important;
 }
 
-/* Team Section */
-.team-item img {
-    transform: scale(1.15);
-    margin-left: -30px;
-    transition: .5s;
-}
-
-.team-item:hover img {
-    margin-left: 0;
-}
-
-.team-item .team-text {
-    left: -100%;
-    transition: .5s;
-}
-
-.team-item .team-text::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: 50%;
-    right: -60px;
-    margin-top: -30px;
-    border: 30px solid;
-    border-color: transparent transparent transparent var(--primary);
-}
-
-.team-item:hover .team-text {
-    left: 0;
-}
-
 /* Testimonials */
 .testimonial-carousel .owl-nav {
     margin-top: 30px;
@@ -287,13 +256,4 @@ h5, h6, .font-weight-medium {
 .testimonial-carousel .owl-item img {
     width: 90px;
     height: 90px;
-}
-
-/* Blog Section */
-.blog-item img {
-    transition: .5s;
-}
-
-.blog-item:hover img {
-    transform: scale(1.1);
 }
