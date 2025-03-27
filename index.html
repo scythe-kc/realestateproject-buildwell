@@ -58,14 +58,15 @@
     </div>
     <!-- Topbar End -->
 
-
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
     <div class="container-fluid">
         <!-- Brand Name -->
-        <a href="index.html" class="navbar-brand p-0">
-            <h1 class="m-0 text-uppercase text-primary fs-3 fs-md-2 fs-lg-1">WELL BUILT REAL ESTATES</h1>
-        </a>
+        <a class="navbar-brand fw-bold text-danger" href="#">WELL BUILT REAL ESTATES</a>
+        <button class="navbar-toggler d-none d-lg-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
 
         <!-- Toggle Button for Mobile -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -74,8 +75,8 @@
         </button>
 
         <!-- Navbar Items -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse justify-content-start" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto text-start">
                 <li class="nav-item">
                     <a class="nav-link active text-dark fw-semibold" href="index.html">HOME</a>
                 </li>
@@ -118,10 +119,11 @@
             </ul>
 
             <!-- Contact and Login Buttons -->
-            <div class="d-flex ms-3">
-                <a href="#" class="btn btn-outline-primary me-2 px-4">Contact</a>
-                <a href="#" class="btn btn-primary px-4">Login</a>
+            <div class="d-flex">
+                <a href="#" class="btn btn-outline-danger me-2">Contact</a>
+                <a href="#" class="btn btn-danger">Login</a>
             </div>
+            
         </div>
     </div>
 </nav>
