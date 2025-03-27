@@ -57,54 +57,56 @@
         </div>
     </div>
     <!-- Topbar End -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-3 py-2">
-        <div class="container-fluid">
-            <!-- Logo centered with smaller text on mobile -->
-            <a href="index.html" class="navbar-brand mx-auto text-center">
-                <h1 class="m-0 text-uppercase text-primary fs-4 fs-lg-2">
-                    WELL BUILT REAL ESTATES LLP
-                </h1>
-            </a>
-    
-            <!-- Menu button on mobile -->
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <!-- Navbar Menu Items -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">HOME</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fw-semibold" href="#" id="aboutDropdown" role="button"
-                            data-bs-toggle="dropdown">ABOUT</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Our Story</a></li>
-                            <li><a class="dropdown-item" href="#">Team</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">PROJECTS</a></li>
-                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">BROCHURE</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fw-semibold" href="#" id="layoutDropdown" role="button"
-                            data-bs-toggle="dropdown">LAYOUT PLAN</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Residential</a></li>
-                            <li><a class="dropdown-item" href="#">Commercial</a></li>
-                        </ul>
-                    </li>
-                </ul>
-    
-                <!-- Contact & Login Buttons - Adjusted and Consistent Design -->
-                <div class="d-flex flex-column flex-lg-row ms-lg-3 text-center">
-                    <a href="#" class="btn btn-outline-primary mb-2 mb-lg-0 me-lg-2 px-4 py-3">Contact</a>
-                    <a href="#" class="btn btn-primary px-4 py-3">Login</a>
+
+
+   <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+    <a href="index.html" class="navbar-brand p-0">
+        <h1 class="m-0 text-uppercase text-primary">
+        WELL BUILT REAL ESTATES LLP
+        </h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0 me-n3">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            
+            <!-- About Dropdown -->
+            <div class="nav-item dropdown">
+                <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                <div class="dropdown-menu m-0">
+                    <a href="company.html" class="dropdown-item">Company</a>
+                    <a href="team.html" class="dropdown-item">Our Team</a>
+                    <a href="news.html" class="dropdown-item">News</a>
+                    <a href="investors.html" class="dropdown-item">Investors</a>
                 </div>
             </div>
+
+            <!-- Projects Link (Moved outside of dropdowns) -->
+            <a href="service.html" class="nav-item nav-link">Projects</a>
+
+            
+            
+            <a href="Brochure.html" class="nav-item nav-link">Brochure</a>
+
+
+            <!-- LayoutPlan Dropdown -->
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">LayoutPlan</a>
+                <div class="dropdown-menu m-0">
+                    <a href="approved-layout.html" class="dropdown-item">Approved LayoutPlan</a>
+                    <a href="revised-layout.html" class="dropdown-item">Revised LayoutPlan</a>
+                </div>
+            </div>
+
+            <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
         </div>
-    </nav>
-    
+    </div>
+</nav>
+<!-- Navbar End -->
+
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
@@ -114,9 +116,9 @@
                     <img class="w-100" src="img/Homeimg1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase">REAL ESTATE</h5>
+                            <h5 class="text-white text-uppercase">WELL BUILT REAL ESTATES LLP</h5>
                             <h1 class="display-1 text-white mb-md-4">We Provide Solution On Your Business</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill">Get Quote</a>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill">Projects</a>
                             <a href="" class="btn btn-secondary py-md-3 px-md-5 rounded-pill">Contact Us</a>
                         </div>
                     </div>
@@ -125,9 +127,9 @@
                     <img class="w-100" src="img/houseimage2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase">REAL ESTATE</h5>
+                            <h5 class="text-white text-uppercase">WELL BUILT REAL ESTATES LLP</h5>
                             <h1 class="display-1 text-white mb-md-4">Take Our Help To Reach The Top Level</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill">Get Quote</a>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill">Projects</a>
                             <a href="" class="btn btn-secondary py-md-3 px-md-5 rounded-pill">Contact Us</a>
                         </div>
                     </div>
@@ -161,13 +163,11 @@
                     Northern Bypass just 300m away, a Temple just at a distance of 10 min & Market just at a 
                     distance of 10 min.
                 </p>
-                <a href="#" class="btn btn-primary py-md-3 px-md-5 rounded-pill" style="font-size: 1.3rem;">Get A Quote</a>
+                <a href="#" class="btn btn-primary py-md-3 px-md-5 rounded-pill" style="font-size: 1.3rem;">CONTACT US</a>
             </div>
         </div>
     </div>
     
-    
- 
     <!-- Services Start -->
     <div class="container-fluid pt-6 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
@@ -181,7 +181,7 @@
                         <i class="fa fa-user-tie fa-2x"></i>
                     </div>
                     <h3 class="mb-3">Metro Station</h3>
-                    <p class="mb-0">Metro stattion just 2 km away</p>
+                    <p class="mb-0">Metro station just 2 km away</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -232,124 +232,6 @@
         </div>
     </div>
     <!-- Services End -->
-
-
-    <!-- Features Start
-    <div class="container-fluid py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 mb-0">Why Choose Us!!!</h1>
-            <hr class="w-25 mx-auto bg-primary">
-        </div>
-        <div class="row g-5">
-            <div class="col-lg-4">
-                <div class="row g-5">
-                    <div class="col-12">
-                        <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-cubes fs-4 text-white"></i>
-                        </div>
-                        <h3>Best In Industry</h3>
-                        <p class="mb-0">Magna sea eos sit dolor, ipsum amet ipsum lorem diam dolor eos diam et diam dolor ea</p>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-percent fs-4 text-white"></i>
-                        </div>
-                        <h3>99% Success Rate</h3>
-                        <p class="mb-0">Magna sea eos sit dolor, ipsum amet ipsum lorem diam dolor eos diam et diam dolor ea</p>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-award fs-4 text-white"></i>
-                        </div>
-                        <h3>Award Winning</h3>
-                        <p class="mb-0">Magna sea eos sit dolor, ipsum amet ipsum lorem diam dolor eos diam et diam dolor ea</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="d-block bg-primary h-100 text-center">
-                    <img class="img-fluid" src="img/feature.jpg" alt="">
-                    <div class="p-4">
-                        <p class="text-white mb-4">Clita nonumy sanctus nonumy et clita tempor, et sea amet ut et sadipscing rebum amet takimata amet, sed accusam eos eos dolores dolore et. Et ea ea dolor rebum invidunt clita eos. Sea accusam stet stet ipsum, sit ipsum et ipsum kasd</p>
-                        <a href="" class="btn btn-light py-md-3 px-md-5 rounded-pill mb-2">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="row g-5">
-                    <div class="col-12">
-                        <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="far fa-smile-beam fs-4 text-white"></i>
-                        </div>
-                        <h3>100% Happy Client</h3>
-                        <p class="mb-0">Magna sea eos sit dolor, ipsum amet ipsum lorem diam dolor eos diam et diam dolor ea</p>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-user-tie fs-4 text-white"></i>
-                        </div>
-                        <h3>Professional Advisors</h3>
-                        <p class="mb-0">Magna sea eos sit dolor, ipsum amet ipsum lorem diam dolor eos diam et diam dolor ea</p>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-headset fs-4 text-white"></i>
-                        </div>
-                        <h3>24/7 Customer Support</h3>
-                        <p class="mb-0">Magna sea eos sit dolor, ipsum amet ipsum lorem diam dolor eos diam et diam dolor ea</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
- -->
-
-    <!-- Quote Start -->
-    <!-- <div class="container-fluid bg-secondary px-0">
-        <div class="row g-0">
-            <div class="col-lg-6 py-6 px-5">
-                <h1 class="display-5 mb-4">Request A Free Quote</h1>
-                <p class="mb-4"></p>
-                <form>
-                    <div class="row gx-3">
-                        <div class="col-6">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="form-floating-1" placeholder="John Doe">
-                                <label for="form-floating-1">Full Name</label>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="form-floating-2" placeholder="name@example.com">
-                                <label for="form-floating-2">Email address</label>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-floating">
-                                <select class="form-select" id="floatingSelect" aria-label="Financial Consultancy">
-                                    <option selected>Financial Consultancy</option>
-                                    <option value="1">Strategy Consultancy</option>
-                                    <option value="2">Tax Consultancy</option>
-                                </select>
-                                <label for="floatingSelect">Select A Service</label>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <button class="btn btn-primary w-100 h-100" type="submit">Request A Quote</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-lg-6" style="min-height: 400px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="img/choose.jpg" alt="Choose Image" style="object-fit: cover;">
-                </div>
-                
-            </div>
-        </div>
-    </div> -->
-    <!-- Quote End -->
 
     <!-- Testimonial Start -->
     <div class="container-fluid bg-secondary p-0">
@@ -426,9 +308,8 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Get In Touch</h3>
-                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>xyz, street new delhi, india</p>
-                <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>REGD OFFICE OF THE COMPANY : 75B, BEHRA ENCLAVE, PASCHIM VIHAR, NEW DELHI- 110087</p>
+                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>CORPORATE OFFECE : 993, SECTOR-6, BAHADURGARH-124507</p>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Follow Us</h3>
@@ -438,6 +319,8 @@
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                 </div>
+                <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>Info@imtgreen.com</p>
+                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 9306 101 300</p>
             </div>
         </div>
     </div>
